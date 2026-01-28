@@ -29,27 +29,25 @@ Sprint -> Value Type: Digital (bool)
 InputMappingContext Settings:  
 
 Add mappings to the Default Key Mappings tab. Select your InputActions via the drop down.  
-The following settings are set up INSIDE the InputMappingContext, NOT inside each individual InputAction. The only information provided by the InputAction is it's Value Type.  
+The following settings are set up INSIDE the InputMappingContext, NOT inside each individual InputAction.  
+The only information provided by the InputAction is it's Value Type.  
 
-InputAction_Jump  
-Bindings  
+InputAction_Jump    
 Space Bar  
 
-InputAction_Move  
-Bindings  
+InputAction_Move    
 W - Modifiers: Swizzle Input Axis Values  
 A - Modifiers: Negate  
 S - Modifiers: Swizzle Input Axis Values | Negate  
 D  
 
-InputAction_Look  
-Bindings  
+InputAction_Look    
 Mouse X  
 Mouse Y - Modifiers: Swizzle Input Axis Values | Negate  
 
-InputAction_Sprint  
-Bindings  
+InputAction_Sprint    
 Left Shift  
+
 
 After you've set up these Input Actions and your InputMappingContext and attatched them to the Character via the Blueprint editor, you should be good to go!  
 
