@@ -18,41 +18,41 @@ Then, you'll need to create an InputMappingContext in Unreal Engine to setup the
 
 This next seciton will go over the settings for the InputMappingContext and InputActions.
 
-InputActions Settings:
+InputActions Settings:  
 
-Jump -> Value Type: Digital (bool)
-Move -> Value Type: Axis2D (Vector2D)
-Look -> Value Type: Axis2D (Vector2D)
-Sprint -> Value Type: Digital (bool)
+Jump -> Value Type: Digital (bool)  
+Move -> Value Type: Axis2D (Vector2D)  
+Look -> Value Type: Axis2D (Vector2D)  
+Sprint -> Value Type: Digital (bool)  
 
 
-InputMappingContext Settings:
+InputMappingContext Settings:  
 
-Add mappings to the Default Key Mappings tab. Select your InputActions via the drop down.
-The following settings are set up INSIDE the InputMappingContext, NOT inside each individual InputAction. The only information provided by the InputAction is it's Value Type.
+Add mappings to the Default Key Mappings tab. Select your InputActions via the drop down.  
+The following settings are set up INSIDE the InputMappingContext, NOT inside each individual InputAction. The only information provided by the InputAction is it's Value Type.  
 
-InputAction_Jump
-Bindings
-Space Bar
+InputAction_Jump  
+Bindings  
+Space Bar  
 
-InputAction_Move
-Bindings
-W - Modifiers: Swizzle Input Axis Values
-A - Modifiers: Negate
-S - Modifiers: Swizzle Input Axis Values | Negate
-D
+InputAction_Move  
+Bindings  
+W - Modifiers: Swizzle Input Axis Values  
+A - Modifiers: Negate  
+S - Modifiers: Swizzle Input Axis Values | Negate  
+D  
 
-InputAction_Look
-Bindings
-Mouse X
-Mouse Y - Modifiers: Swizzle Input Axis Values | Negate
+InputAction_Look  
+Bindings  
+Mouse X  
+Mouse Y - Modifiers: Swizzle Input Axis Values | Negate  
 
-InputAction_Sprint
-Bindings
-Left Shift
+InputAction_Sprint  
+Bindings  
+Left Shift  
 
-After you've set up these Input Actions and your InputMappingContext and attatched them to the Character via the Blueprint editor, you should be good to go!
+After you've set up these Input Actions and your InputMappingContext and attatched them to the Character via the Blueprint editor, you should be good to go!  
 
-I hope this repository proves helpful!  Have fun coding your Multiplayer game in Unreal Engine!
+I hope this repository proves helpful!  Have fun coding your Multiplayer game in Unreal Engine!  
 
 -- JrMJr
